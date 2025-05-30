@@ -23,7 +23,7 @@ for message in st.session_state.chat_history:
     with st.chat_message(role):
         st.markdown(content) 
 
-query = st.chat_input(f"Dạ anh/chị cần tư vấn gì ạ?: {st.session_state.backend_chat_api}")
+query = st.chat_input(f"Nhập tin nhắn...")
 
 if query:
 
