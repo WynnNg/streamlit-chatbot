@@ -58,4 +58,3 @@ files = response.json()
 st.subheader("Các tài liệu đã tải lên: ")
 for file in files:
     st.text(file["name"])
-       
