@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.header("BOTSLAB chatbot")
+st.header("Trợ lý ảo DCTECH")
